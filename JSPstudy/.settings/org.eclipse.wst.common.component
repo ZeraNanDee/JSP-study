@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="JSPstudy">
+        <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="rt.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/JRE_LIB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="src.zip" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/JRE_SRC">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/var/ECLIPSE_HOME/plugins/org.eclipse.equinox.launcher_1.4.0.v20161219-1356.jar">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="JSPstudy"/>
+        <property name="java-output-path" value="/JSPstudy/build/classes"/>
+    </wb-module>
+</project-modules>
